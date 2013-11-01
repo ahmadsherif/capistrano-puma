@@ -38,7 +38,7 @@ namespace :puma do
         if test "[[ -f #{state_path} ]]"
           execute *fetch(:pumactl_cmd), "-S #{state_path} restart"
         else
-          invoke 'puma:start'
+          execute *fetch(:puma_cmd), start_options
         end
       end
     end
