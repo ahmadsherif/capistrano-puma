@@ -1,6 +1,8 @@
 # Capistrano::Puma
 
-Puma support for Capistrano 3.x
+:rotating_light: **This gem has been deprecated long time ago and you should use something like [this gem](https://github.com/seuros/capistrano-puma) instead.** :rotating_light:
+
+Puma support for Capistrano 3.x.
 
 ## Installation
 
